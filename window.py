@@ -426,7 +426,7 @@ class MainApp:
         """Intercept application close to prompt for confirmation."""
         if messagebox.askokcancel(
             "Exit Application",
-            "Are you sure you want to exit?"
+            "Are you sure you want me to die?"
         ):
             self.root.destroy()
 
